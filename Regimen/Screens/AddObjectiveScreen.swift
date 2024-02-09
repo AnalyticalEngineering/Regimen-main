@@ -24,7 +24,7 @@ struct AddObjectiveScreen: View {
                 VStack{
                     Image(systemName: "scope")
                         .foregroundStyle(selectedColor)
-                        .font(.system(size: 100))
+                        .font(.system(size: 55))
                     TextField("Objective Name", text: $name)
                         .multilineTextAlignment(.center)
                         .textFieldStyle(.roundedBorder)
@@ -47,6 +47,7 @@ struct AddObjectiveScreen: View {
                             HapticManager.notification(type: .success)
                             dismiss()
                         }
+                        .foregroundStyle(.blue)
                     }
                     ToolbarItem(placement: .principal ){
                         Text("New Objective")
@@ -59,6 +60,7 @@ struct AddObjectiveScreen: View {
                             Button("Save"){
                                 HapticManager.notification(type: .success)
                               onSave(name, UIColor(selectedColor))
+                                dismiss()
                             }
                             .buttonStyle(.borderedProminent)
                             .tint(.colorGreen)

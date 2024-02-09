@@ -10,7 +10,7 @@ import CoreData
 import Foundation
 
 
-class FunctionsAndConstants {
+class TaskService {
     
     static var viewContext: NSManagedObjectContext {
         CoreDataProvider.shared.persistentContainer.viewContext
@@ -27,10 +27,17 @@ class FunctionsAndConstants {
         try save()
     }
     
+    
+   
+    static func saveTaskToObjective(objective: Objective, taskTitle: String) throws {
+        let task = Task(context: viewContext)
+        task.title = taskTitle
+        objective.addToTasks(task)
+        try save()
+    }
+    
 }
 
-    
-    
     
     
     

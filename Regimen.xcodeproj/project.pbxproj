@@ -13,17 +13,20 @@
 		1201C69D2B753E9E0016049D /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C69C2B753E9E0016049D /* TabBarHome.swift */; };
 		1201C6A02B753EE80016049D /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C69F2B753EE80016049D /* Tasks.swift */; };
 		1201C6A22B753EF30016049D /* Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6A12B753EF30016049D /* Vision.swift */; };
-		1201C6A42B753EFD0016049D /* Objectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6A32B753EFD0016049D /* Objectives.swift */; };
+		1201C6A42B753EFD0016049D /* ObjectivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6A32B753EFD0016049D /* ObjectivesView.swift */; };
 		1201C6AE2B7557A50016049D /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6AD2B7557A50016049D /* CoreDataProvider.swift */; };
 		1201C6B12B755A670016049D /* RegimenModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6AF2B755A670016049D /* RegimenModel.xcdatamodeld */; };
-		1201C6B32B755DD70016049D /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6B22B755DD70016049D /* MyList+CoreDataClass.swift */; };
-		1201C6B52B755DF00016049D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6B42B755DF00016049D /* MyList+CoreDataProperties.swift */; };
+		1201C6B32B755DD70016049D /* ObjectiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6B22B755DD70016049D /* ObjectiveClass.swift */; };
+		1201C6B52B755DF00016049D /* ObjectiveModelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6B42B755DF00016049D /* ObjectiveModelProperties.swift */; };
 		1201C6B72B7566C60016049D /* AddObjectiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6B62B7566C60016049D /* AddObjectiveScreen.swift */; };
 		1201C6BB2B7588AD0016049D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6BA2B7588AD0016049D /* Color.swift */; };
 		1201C6BD2B7588C70016049D /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6BC2B7588C70016049D /* Hex.swift */; };
 		1201C6BF2B7588E50016049D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6BE2B7588E50016049D /* HapticsManager.swift */; };
-		1201C6C42B75A1640016049D /* FunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6C32B75A1640016049D /* FunctionsAndConstants.swift */; };
+		1201C6C42B75A1640016049D /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6C32B75A1640016049D /* TaskService.swift */; };
 		1201C6C62B75A9140016049D /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6C52B75A9140016049D /* UIColorTransformer.swift */; };
+		1201C6C82B75B7B90016049D /* ObjectiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6C72B75B7B90016049D /* ObjectiveListView.swift */; };
+		1201C6CA2B75B83A0016049D /* ObjectiveCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201C6C92B75B83A0016049D /* ObjectiveCardView.swift */; };
+		12CEEDA32B760A6F0090F696 /* ObjectiveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEEDA22B760A6F0090F696 /* ObjectiveDetailView.swift */; };
 		12EA9DC72B0BD7A1005702EF /* RegimenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA9DC62B0BD7A1005702EF /* RegimenApp.swift */; };
 		12EA9DC92B0BD7A1005702EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA9DC82B0BD7A1005702EF /* ContentView.swift */; };
 		12EA9DCB2B0BD7A2005702EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EA9DCA2B0BD7A2005702EF /* Assets.xcassets */; };
@@ -57,17 +60,20 @@
 		1201C69C2B753E9E0016049D /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
 		1201C69F2B753EE80016049D /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		1201C6A12B753EF30016049D /* Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision.swift; sourceTree = "<group>"; };
-		1201C6A32B753EFD0016049D /* Objectives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objectives.swift; sourceTree = "<group>"; };
+		1201C6A32B753EFD0016049D /* ObjectivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectivesView.swift; sourceTree = "<group>"; };
 		1201C6AD2B7557A50016049D /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 		1201C6B02B755A670016049D /* RegimenModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RegimenModel.xcdatamodel; sourceTree = "<group>"; };
-		1201C6B22B755DD70016049D /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1201C6B42B755DF00016049D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1201C6B22B755DD70016049D /* ObjectiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveClass.swift; sourceTree = "<group>"; };
+		1201C6B42B755DF00016049D /* ObjectiveModelProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveModelProperties.swift; sourceTree = "<group>"; };
 		1201C6B62B7566C60016049D /* AddObjectiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddObjectiveScreen.swift; sourceTree = "<group>"; };
 		1201C6BA2B7588AD0016049D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		1201C6BC2B7588C70016049D /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
 		1201C6BE2B7588E50016049D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
-		1201C6C32B75A1640016049D /* FunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsAndConstants.swift; sourceTree = "<group>"; };
+		1201C6C32B75A1640016049D /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
 		1201C6C52B75A9140016049D /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
+		1201C6C72B75B7B90016049D /* ObjectiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveListView.swift; sourceTree = "<group>"; };
+		1201C6C92B75B83A0016049D /* ObjectiveCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveCardView.swift; sourceTree = "<group>"; };
+		12CEEDA22B760A6F0090F696 /* ObjectiveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveDetailView.swift; sourceTree = "<group>"; };
 		12EA9DC32B0BD7A1005702EF /* Regimen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regimen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EA9DC62B0BD7A1005702EF /* RegimenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegimenApp.swift; sourceTree = "<group>"; };
 		12EA9DC82B0BD7A1005702EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,8 +151,8 @@
 			children = (
 				1201C6982B753E5A0016049D /* TabPosition.swift */,
 				1201C69A2B753E7B0016049D /* TabShape.swift */,
-				1201C6B22B755DD70016049D /* MyList+CoreDataClass.swift */,
-				1201C6B42B755DF00016049D /* MyList+CoreDataProperties.swift */,
+				1201C6B22B755DD70016049D /* ObjectiveClass.swift */,
+				1201C6B42B755DF00016049D /* ObjectiveModelProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,7 +160,7 @@
 		1201C6952B753AD60016049D /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				1201C6C32B75A1640016049D /* FunctionsAndConstants.swift */,
+				1201C6C32B75A1640016049D /* TaskService.swift */,
 				1201C6BA2B7588AD0016049D /* Color.swift */,
 				1201C6BC2B7588C70016049D /* Hex.swift */,
 				1201C6C52B75A9140016049D /* UIColorTransformer.swift */,
@@ -162,14 +168,25 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
-		1201C69E2B753ECE0016049D /* TabBarViews */ = {
+		1201C69E2B753ECE0016049D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				1201C69F2B753EE80016049D /* Tasks.swift */,
 				1201C6A12B753EF30016049D /* Vision.swift */,
-				1201C6A32B753EFD0016049D /* Objectives.swift */,
+				12CEEDA42B76822A0090F696 /* ObjectiveViews */,
 			);
-			path = TabBarViews;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12CEEDA42B76822A0090F696 /* ObjectiveViews */ = {
+			isa = PBXGroup;
+			children = (
+				1201C6A32B753EFD0016049D /* ObjectivesView.swift */,
+				1201C6C72B75B7B90016049D /* ObjectiveListView.swift */,
+				1201C6C92B75B83A0016049D /* ObjectiveCardView.swift */,
+				12CEEDA22B760A6F0090F696 /* ObjectiveDetailView.swift */,
+			);
+			path = ObjectiveViews;
 			sourceTree = "<group>";
 		};
 		12EA9DBA2B0BD7A1005702EF = {
@@ -201,7 +218,7 @@
 				1201C6952B753AD60016049D /* SupportFiles */,
 				1201C6942B753AC30016049D /* Models */,
 				1201C6902B753A990016049D /* Screens */,
-				1201C69E2B753ECE0016049D /* TabBarViews */,
+				1201C69E2B753ECE0016049D /* Views */,
 				12EA9DC62B0BD7A1005702EF /* RegimenApp.swift */,
 				12EA9DC82B0BD7A1005702EF /* ContentView.swift */,
 				12EA9DCA2B0BD7A2005702EF /* Assets.xcassets */,
@@ -367,18 +384,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1201C6A02B753EE80016049D /* Tasks.swift in Sources */,
-				1201C6A42B753EFD0016049D /* Objectives.swift in Sources */,
+				1201C6A42B753EFD0016049D /* ObjectivesView.swift in Sources */,
+				1201C6CA2B75B83A0016049D /* ObjectiveCardView.swift in Sources */,
+				12CEEDA32B760A6F0090F696 /* ObjectiveDetailView.swift in Sources */,
 				1201C69D2B753E9E0016049D /* TabBarHome.swift in Sources */,
 				1201C6992B753E5A0016049D /* TabPosition.swift in Sources */,
-				1201C6C42B75A1640016049D /* FunctionsAndConstants.swift in Sources */,
+				1201C6C42B75A1640016049D /* TaskService.swift in Sources */,
 				1201C6BB2B7588AD0016049D /* Color.swift in Sources */,
 				1201C6C62B75A9140016049D /* UIColorTransformer.swift in Sources */,
 				1201C6B12B755A670016049D /* RegimenModel.xcdatamodeld in Sources */,
 				1201C6972B753B340016049D /* Tab.swift in Sources */,
 				12EA9DC92B0BD7A1005702EF /* ContentView.swift in Sources */,
 				1201C6AE2B7557A50016049D /* CoreDataProvider.swift in Sources */,
-				1201C6B52B755DF00016049D /* MyList+CoreDataProperties.swift in Sources */,
-				1201C6B32B755DD70016049D /* MyList+CoreDataClass.swift in Sources */,
+				1201C6B52B755DF00016049D /* ObjectiveModelProperties.swift in Sources */,
+				1201C6C82B75B7B90016049D /* ObjectiveListView.swift in Sources */,
+				1201C6B32B755DD70016049D /* ObjectiveClass.swift in Sources */,
 				12EA9DC72B0BD7A1005702EF /* RegimenApp.swift in Sources */,
 				1201C6B72B7566C60016049D /* AddObjectiveScreen.swift in Sources */,
 				1201C6BD2B7588C70016049D /* Hex.swift in Sources */,

@@ -25,7 +25,7 @@ struct TabBarHome: View {
                     .tag(Tab.tasks)
              Vision()
                     .tag(Tab.vision)
-                Objectives()
+                ObjectivesView()
                     .tag(Tab.objectives)
            
             }
