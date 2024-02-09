@@ -9,10 +9,10 @@ import Foundation
 import CoreData
 import UIKit
 
-extension MyList {
+extension Objective {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<MyList> {
-        return NSFetchRequest<MyList>(entityName: "MyList")
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Objective> {
+        return NSFetchRequest<Objective>(entityName: "Objective")
     }
 
     @NSManaged public var name: String
@@ -20,11 +20,11 @@ extension MyList {
     @NSManaged public var reminders: NSSet?
 }
 
-extension MyList: Identifiable {
+extension Objective: Identifiable {
     
 }
 
 // MARK: Generated accessors for notes
-extension MyList {
+extension Objective {
 
 }

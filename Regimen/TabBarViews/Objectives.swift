@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct Objectives: View {
+    //MARK:  PROPERTIES
+    @State private var isPresented: Bool = false
     var body: some View {
         NavigationStack {
             VStack{
-                
+                Text("helloo")
             }
             .toolbar{
                 ToolbarItem(placement: .topBarLeading, content: {
@@ -31,7 +33,7 @@ struct Objectives: View {
                                 .fontWeight(.bold)
                                 .offset(x: 25)
                                 .tint(.blue)
-                                
+                            
                             Text("bjectives")
                                 .padding(.horizontal)
                                 .font(.title3)
@@ -41,18 +43,34 @@ struct Objectives: View {
                         }
                     })
                 })
-                ToolbarItem(placement: .topBarTrailing, content: {
+                ToolbarItem(placement: .topBarTrailing, content:  {
                     Button(action: {
                         HapticManager.notification(type: .success)
-                    }, label: {
+                        isPresented = true
+                    },  label:  {
                         Image(systemName: "plus.circle.fill")
                     })
                 })
             }
+            .sheet(isPresented: $isPresented) {
+                NavigationView{
+                    AddObjectiveScreen { name, color in
+                        do {
+                            try FunctionsAndConstants.saveObjective(name, color)
+                        } catch {
+                            print (error)
+                        }
+                        
+                        
+                    }
+                }
+            }
+            .padding()
         }
     }
 }
 
 #Preview {
-    Objectives()
+    TabBarHome()
+        .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
 }

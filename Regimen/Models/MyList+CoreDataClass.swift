@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 
 
-@objc(MyList)
-public class MyList: NSManagedObject {
+@objc(Objective)
+public class Objective: NSManagedObject {
     
 }

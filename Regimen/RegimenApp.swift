@@ -12,6 +12,7 @@ struct RegimenApp: App {
     var body: some Scene {
         WindowGroup {
            TabBarHome()
+                .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
         }
     }
 }

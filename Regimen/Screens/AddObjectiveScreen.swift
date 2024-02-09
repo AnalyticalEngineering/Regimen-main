@@ -1,5 +1,5 @@
 //
-//  AddNewListView.swift
+//  AddObjectiveScreen.swift
 //  Regimen
 //
 //  Created by J. DeWeese on 2/8/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddNewListView: View {
+struct AddObjectiveScreen: View {
     ///MARK:  PROPERTIES
     @Environment(\.dismiss) private var dismiss
     @State private var name: String = ""
@@ -23,7 +23,7 @@ struct AddNewListView: View {
             VStack{
                 VStack{
                     Image(systemName: "scope")
-                        .foregroundStyle(Color.colorGreen)
+                        .foregroundStyle(selectedColor)
                         .font(.system(size: 100))
                     TextField("Objective Name", text: $name)
                         .multilineTextAlignment(.center)
@@ -61,6 +61,8 @@ struct AddNewListView: View {
                               onSave(name, UIColor(selectedColor))
                             }
                             .buttonStyle(.borderedProminent)
+                            .tint(.colorGreen)
+                            .foregroundStyle(.white)
                             .disabled(!isFormValid)
                         }
                     }
@@ -69,5 +71,5 @@ struct AddNewListView: View {
     }
 
                       #Preview{
-                          AddNewListView(onSave: {(_, _) in })
+                          AddObjectiveScreen(onSave: {(_, _) in })
                 }
